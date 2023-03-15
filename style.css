@@ -58,6 +58,11 @@ body {
   justify-content: center;
 }
 
+.space-around-horizontally {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* header */
 
 .header {
@@ -66,7 +71,8 @@ body {
   background-color: rgb(var(--color-primary-500));
   color: rgb(var(--color-white));
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+              rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+  z-index: 1;
 }
 
 .header .header__title {
@@ -137,6 +143,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
   border-radius: var(--border-radius-default);
+  position: relative;
 }
 
 .card .card__question {
@@ -157,6 +164,13 @@ body {
   color: rgb(var(--color-primary-900));
 }
 
+.card .card__bookmark-icon {
+  position: absolute;
+  top: -10px;
+  right: 4px;
+  height: var(--size-9);
+}
+
 /* footer */
 
 .footer {
@@ -172,10 +186,19 @@ body {
 /* navbar */
 
 .navbar {
-  display: flex;
-  justify-content: space-around;
+}
+
+.navbar__link {
+  display: inline-block;
+  border-bottom-width: 4px;
+  padding: var(--size-2) 0;
+  border-color: transparent;
+}
+
+.navbar__link:hover {
+  border-color: black;
 }
 
 .navbar__img {
-  height: var(--size-10);
+  height: var(--size-9);
 }
