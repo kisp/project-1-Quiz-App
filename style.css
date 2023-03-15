@@ -1,0 +1,181 @@
+:root {
+  --color-white: 255 255 255;
+  --color-black: 0 0 0;
+
+  --color-primary-100: 207 250 254;
+  --color-primary-200: 165 243 252;
+  --color-primary-300: 103 232 249;
+  --color-primary-400: 34 211 238;
+  --color-primary-500: 6 182 212;
+  --color-primary-600: 8 145 178;
+  --color-primary-700: 14 116 144;
+  --color-primary-800: 21 94 117;
+  --color-primary-900: 22 78 99;
+
+  --color-gray-100: 243 244 246;
+  --color-gray-200: 229 231 235;
+
+  --font-size-sm: 0.875rem;
+  --font-size-sm-line-height: 1.25rem;
+
+  --font-size-2xl: 1.5rem;
+  --font-size-2xl-line-height: 2rem;
+
+  --font-size-4xl: 2.25rem;
+  --font-size-4xl-line-height: 2.5rem;
+
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 0.75rem;
+  --size-4: 1rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-7: 1.75rem;
+  --size-8: 2rem;
+  --size-9: 2.25rem;
+  --size-10: 2.5rem;
+  --size-11: 2.75rem;
+  --size-12: 3rem;
+  --size-14: 3.5rem;
+  --size-16: 4rem;
+  --size-20: 5rem;
+  --size-24: 6rem;
+  --size-28: 7rem;
+  --size-32: 8rem;
+
+  --border-radius-default: 0.25rem;
+  --border-radius-2xl: 1rem;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* utils */
+
+.center-horizontally {
+  display: flex;
+  justify-content: center;
+}
+
+/* header */
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(var(--color-primary-500));
+  color: rgb(var(--color-white));
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+}
+
+.header .header__title {
+  font-size: var(--font-size-4xl);
+  line-height: var(--font-size-4xl-line-height);
+  text-align: center;
+  padding: var(--size-4) 0;
+}
+
+/* main */
+
+.main {
+  margin-bottom: var(--size-32);
+}
+
+/* primary-button */
+
+.primary-button {
+  border-width: 2px;
+  border-color: rgb(var(--color-black));
+  padding-left: var(--size-8);
+  padding-right: var(--size-8);
+  padding-top: var(--size-3);
+  padding-bottom: var(--size-3);
+  margin-bottom: var(--size-6);
+  background-color: rgb(var(--color-primary-400));
+  text-transform: uppercase;
+}
+
+.primary-button:hover {
+  background-color: rgb(var(--color-primary-600));
+  color: rgb(var(--color-white));
+}
+
+/* tag-list */
+
+.tag-list {
+  display: flex;
+  gap: var(--size-3);
+  flex-wrap: wrap;
+  font-size: var(--font-size-sm);
+  line-height: var(--font-size-sm-line-height);
+}
+
+.tag-list .tag-list__item {
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-color: rgb(var(--color-primary-400));
+  padding-left: var(--size-2);
+  padding-right: var(--size-2);
+  padding-top: var(--size-1);
+  padding-bottom: var(--size-1);
+  background-color: rgb(var(--color-gray-100));
+}
+
+.tag-list .tag-list__item:hover {
+  background-color: rgb(var(--color-gray-200));
+  border-color: rgb(var(--color-primary-600));
+}
+
+/* card */
+
+.card {
+  border-width: 1px;
+  border-color: rgb(var(--color-black));
+  margin: var(--size-4);
+  padding: var(--size-6);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
+  border-radius: var(--border-radius-default);
+}
+
+.card .card__question {
+  font-size: var(--font-size-2xl);
+  line-height: var(--font-size-2xl-line-height);
+  margin-bottom: var(--size-6);
+  border-color: rgb(var(--color-gray-200));
+  border-radius: var(--border-radius-2xl);
+  border-width: 2px;
+  padding: var(--size-2);
+}
+
+.card .card__question:hover {
+  border-width: 2px;
+  border-color: rgb(var(--color-primary-400));
+  border-style: dashed;
+  background-color: rgb(var(--color-primary-100));
+  color: rgb(var(--color-primary-900));
+}
+
+/* footer */
+
+.footer {
+  padding: var(--size-4) 0;
+  border-top-width: 1px;
+  border-color: rgb(var(--color-black));
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  background-color: rgb(var(--color-white));
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar__img {
+  height: var(--size-10);
+}
