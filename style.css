@@ -176,7 +176,8 @@ body {
 
 /* navbar */
 
-.navbar {}
+.navbar {
+}
 
 .navbar__link {
   display: inline-block;
