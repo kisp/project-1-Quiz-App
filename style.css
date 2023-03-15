@@ -58,6 +58,11 @@ body {
   justify-content: center;
 }
 
+.space-around-horizontally {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* header */
 
 .header {
@@ -171,10 +176,7 @@ body {
 
 /* navbar */
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-}
+.navbar {}
 
 .navbar__link {
   display: inline-block;
