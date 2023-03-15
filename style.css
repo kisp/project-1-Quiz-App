@@ -85,7 +85,7 @@ body {
 /* main */
 
 .main {
-  margin-bottom: var(--size-32);
+  margin-bottom: var(--size-28);
 }
 
 /* primary-button */
@@ -173,7 +173,7 @@ body {
 /* footer */
 
 .footer {
-  padding: var(--size-4) 0;
+  padding-top: var(--size-2);
   border-top-width: 1px;
   border-color: rgb(var(--color-black));
   position: fixed;
@@ -199,5 +199,5 @@ body {
 }
 
 .navbar__img {
-  height: var(--size-9);
+  height: var(--size-7);
 }
