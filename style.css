@@ -71,7 +71,7 @@ body {
   background-color: rgb(var(--color-primary-500));
   color: rgb(var(--color-white));
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-              rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
   z-index: 1;
 }
 
@@ -85,7 +85,7 @@ body {
 /* main */
 
 .main {
-  margin-bottom: var(--size-32);
+  margin-bottom: var(--size-28);
 }
 
 /* primary-button */
@@ -113,8 +113,6 @@ body {
   display: flex;
   gap: var(--size-3);
   flex-wrap: wrap;
-  font-size: var(--font-size-sm);
-  line-height: var(--font-size-sm-line-height);
 }
 
 .tag-list .tag-list__item {
@@ -138,7 +136,7 @@ body {
 .card {
   border-width: 1px;
   border-color: rgb(var(--color-black));
-  margin: var(--size-4);
+  margin: var(--size-6) var(--size-4);
   padding: var(--size-6);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
@@ -152,16 +150,17 @@ body {
   margin-bottom: var(--size-6);
   border-color: rgb(var(--color-gray-200));
   border-radius: var(--border-radius-2xl);
-  border-width: 2px;
-  padding: var(--size-2);
+  border-width: 4px;
+  padding: var(--size-4);
 }
 
-.card .card__question:hover {
-  border-width: 2px;
+.card:hover .card__question {
   border-color: rgb(var(--color-primary-400));
   border-style: dashed;
   background-color: rgb(var(--color-primary-100));
   color: rgb(var(--color-primary-900));
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
 }
 
 .card .card__bookmark-icon {
@@ -174,7 +173,7 @@ body {
 /* footer */
 
 .footer {
-  padding: var(--size-4) 0;
+  padding-top: var(--size-2);
   border-top-width: 1px;
   border-color: rgb(var(--color-black));
   position: fixed;
@@ -200,5 +199,5 @@ body {
 }
 
 .navbar__img {
-  height: var(--size-9);
+  height: var(--size-7);
 }
