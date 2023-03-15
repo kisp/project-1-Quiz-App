@@ -113,8 +113,6 @@ body {
   display: flex;
   gap: var(--size-3);
   flex-wrap: wrap;
-  font-size: var(--font-size-sm);
-  line-height: var(--font-size-sm-line-height);
 }
 
 .tag-list .tag-list__item {
