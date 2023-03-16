@@ -45,6 +45,7 @@
 
   --border-radius-default: 0.25rem;
   --border-radius-2xl: 1rem;
+  --border-radius-full: 9999px;
 }
 
 body {
@@ -86,6 +87,10 @@ body {
 
 .main {
   margin-bottom: var(--size-28);
+}
+
+.main--profile-page {
+  margin: 0 var(--size-16);
 }
 
 /* primary-button */
