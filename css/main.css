@@ -1,6 +1,9 @@
 @import "./reset.css";
 @import "./vars.css";
 @import "./utils.css";
+@import "./components/header.css";
+@import "./components/primary-button.css";
+@import "./components/tag-list.css";
 @import "./general.css";
 @import "./profile.css";
 /* @import "./debug.css"; */
