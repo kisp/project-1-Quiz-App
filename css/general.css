@@ -40,7 +40,8 @@ body {
 }
 
 .main--profile-page {
-  margin: 0 var(--size-16);
+  margin-right: var(--size-16);
+  margin-left: var(--size-16);
 }
 
 /* primary-button */
