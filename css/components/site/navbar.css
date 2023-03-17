@@ -1,0 +1,17 @@
+.navbar {
+}
+
+.navbar__link {
+  display: inline-block;
+  border-bottom-width: 4px;
+  padding: var(--size-2) 0;
+  border-color: transparent;
+}
+
+.navbar__link:hover {
+  border-color: black;
+}
+
+.navbar__img {
+  height: var(--size-7);
+}

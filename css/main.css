@@ -1,5 +1,15 @@
 @import "./reset.css";
 @import "./vars.css";
-@import "./general.css";
-@import "./profile.css";
+@import "./utils.css";
+@import "./components/profile/about-me.css";
+@import "./components/profile/avatar.css";
+@import "./components/profile/counters.css";
+@import "./components/profile/settings.css";
+@import "./components/question-cards/card.css";
+@import "./components/question-cards/tag-list.css";
+@import "./components/site/footer.css";
+@import "./components/site/header.css";
+@import "./components/site/navbar.css";
+@import "./components/site/primary-button.css";
+@import "./site.css";
 /* @import "./debug.css"; */

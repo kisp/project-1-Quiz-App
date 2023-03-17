@@ -1,0 +1,29 @@
+.settings {
+  margin-top: var(--size-8);
+  margin-bottom: var(--size-8);
+}
+
+.settings .settings__title {
+  font-size: var(--font-size-2xl);
+  line-height: var(--font-size-2xl-line-height);
+  margin-bottom: var(--size-2);
+}
+
+.settings .settings__item {
+  display: flex;
+  gap: var(--size-24);
+  justify-content: center;
+  align-items: center;
+}
+
+.settings .settings__key {
+  font-size: var(--font-size-xl);
+  line-height: var(--font-size-xl-line-height);
+}
+
+.settings .settings__value {
+  border-width: 1px;
+  border-color: rgb(var(--color-black));
+  padding: var(--size-2);
+  border-radius: var(--border-radius-2xl);
+}

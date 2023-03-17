@@ -1,0 +1,36 @@
+.card {
+  border-width: 1px;
+  border-color: rgb(var(--color-black));
+  margin: var(--size-6) var(--size-4);
+  padding: var(--size-6);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
+  border-radius: var(--border-radius-default);
+  position: relative;
+}
+
+.card .card__question {
+  font-size: var(--font-size-2xl);
+  line-height: var(--font-size-2xl-line-height);
+  margin-bottom: var(--size-6);
+  border-color: rgb(var(--color-gray-200));
+  border-radius: var(--border-radius-2xl);
+  border-width: 4px;
+  padding: var(--size-4);
+}
+
+.card:hover .card__question {
+  border-color: rgb(var(--color-primary-400));
+  border-style: dashed;
+  background-color: rgb(var(--color-primary-100));
+  color: rgb(var(--color-primary-900));
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
+}
+
+.card .card__bookmark-icon {
+  position: absolute;
+  top: -10px;
+  right: 4px;
+  height: var(--size-9);
+}
