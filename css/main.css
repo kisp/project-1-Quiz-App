@@ -7,6 +7,9 @@
 @import "./components/question-cards/card.css";
 @import "./components/site/footer.css";
 @import "./components/site/navbar.css";
+@import "./components/profile/avatar.css";
+@import "./components/profile/about-me.css";
+@import "./components/profile/counters.css";
+@import "./components/profile/settings.css";
 @import "./site.css";
-@import "./profile.css";
 /* @import "./debug.css"; */
