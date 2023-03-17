@@ -4,6 +4,10 @@
 @import "./components/header.css";
 @import "./components/primary-button.css";
 @import "./components/tag-list.css";
-@import "./general.css";
+@import "./components/card.css";
+@import "./components/footer.css";
+@import "./components/navbar.css";
+@import "./components/main.css";
+@import "./site.css";
 @import "./profile.css";
 /* @import "./debug.css"; */

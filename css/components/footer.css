@@ -1,0 +1,9 @@
+.footer {
+  padding-top: var(--size-2);
+  border-top-width: 1px;
+  border-color: rgb(var(--color-black));
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  background-color: rgb(var(--color-white));
+}
