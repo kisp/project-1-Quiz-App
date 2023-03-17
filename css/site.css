@@ -1,3 +1,12 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
+
+.main {
+  margin-bottom: var(--size-28);
+}
+
+.main--profile-page {
+  margin-right: var(--size-16);
+  margin-left: var(--size-16);
+}
