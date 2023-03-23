@@ -12,6 +12,26 @@
   --color-light-primary-800: 21 94 117;
   --color-light-primary-900: 22 78 99;
 
+  --color-dark-primary-100: 250 232 255;
+  --color-dark-primary-200: 245 208 254;
+  --color-dark-primary-300: 240 171 252;
+  --color-dark-primary-400: 232 121 249;
+  --color-dark-primary-500: 217 70 239;
+  --color-dark-primary-600: 192 38 211;
+  --color-dark-primary-700: 162 28 175;
+  --color-dark-primary-800: 134 25 143;
+  --color-dark-primary-900: 112 26 117;
+
+  --color-dark-slate-100: 241 245 249;
+  --color-dark-slate-200: 226 232 240;
+  --color-dark-slate-300: 203 213 225;
+  --color-dark-slate-400: 148 163 184;
+  --color-dark-slate-500: 100 116 139;
+  --color-dark-slate-600: 71 85 105;
+  --color-dark-slate-700: 51 65 85;
+  --color-dark-slate-800: 30 41 59;
+  --color-dark-slate-900: 15 23 42;
+
   --color-gray-100: 243 244 246;
   --color-gray-200: 229 231 235;
 
