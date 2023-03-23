@@ -14,3 +14,13 @@
   background-color: rgb(var(--color-light-primary-600));
   color: rgb(var(--color-white));
 }
+
+/* dark mode */
+
+.dark .primary-button {
+  background-color: rgb(var(--color-dark-primary-600));
+}
+
+.dark .primary-button:hover {
+  background-color: rgb(var(--color-dark-primary-700));
+}
