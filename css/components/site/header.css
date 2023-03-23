@@ -14,3 +14,7 @@
   text-align: center;
   padding: var(--size-4) 0;
 }
+
+.dark .header {
+  background-color: rgb(var(--color-dark-primary-700));
+}
