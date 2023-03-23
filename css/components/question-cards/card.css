@@ -34,3 +34,19 @@
   right: 4px;
   height: var(--size-9);
 }
+
+/* dark mode */
+
+.dark .card {
+  background-color: rgb(var(--color-dark-slate-600));
+}
+
+.dark .card .card__question {
+  border-color: rgb(var(--color-dark-slate-700));
+  color: white;
+}
+
+.dark .card:hover .card__question {
+  border-color: rgb(var(--color-dark-primary-400));
+  background-color: rgb(var(--color-dark-primary-900));
+}
