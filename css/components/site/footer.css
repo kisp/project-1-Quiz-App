@@ -7,3 +7,9 @@
   bottom: 0;
   background-color: rgb(var(--color-white));
 }
+
+/* dark mode */
+
+.dark .footer {
+  background-color: rgb(var(--color-dark-slate-800));
+}
