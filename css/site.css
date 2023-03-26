@@ -11,6 +11,12 @@ body {
   margin-left: var(--size-16);
 }
 
+/* dark mode */
+
 .dark body {
   background-color: rgb(var(--color-dark-slate-700));
+}
+
+.dark .main--profile-page {
+  color: rgb(var(--color-white));
 }
