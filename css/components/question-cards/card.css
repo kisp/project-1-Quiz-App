@@ -15,15 +15,14 @@
   margin-bottom: var(--size-6);
   border-color: rgb(var(--color-gray-200));
   border-radius: var(--border-radius-2xl);
-  border-width: 4px;
+  border-width: 2px;
   padding: var(--size-4);
 }
 
 .card:hover .card__question {
   border-color: rgb(var(--color-light-primary-400));
   border-style: dashed;
-  background-color: rgb(var(--color-light-primary-100));
-  color: rgb(var(--color-light-primary-900));
+  background-color: rgb(var(--color-gray-100));
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
 }
@@ -54,8 +53,8 @@
 }
 
 .dark .card:hover .card__question {
-  border-color: rgb(var(--color-dark-primary-400));
-  background-color: rgb(var(--color-dark-primary-900));
+  border-color: rgb(var(--color-dark-primary-700));
+  background-color: rgb(var(--color-dark-slate-700));
 }
 
 .dark .card .card__bookmark-icon--selected {
