@@ -19,6 +19,7 @@
 
 .dark .primary-button {
   background-color: rgb(var(--color-dark-primary-600));
+  color: rgb(var(--color-white));
 }
 
 .dark .primary-button:hover {
