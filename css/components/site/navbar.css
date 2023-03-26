@@ -9,9 +9,15 @@
 }
 
 .navbar__link:hover {
-  border-color: black;
+  border-color: rgb(var(--color-black));
 }
 
 .navbar__img {
   height: var(--size-7);
+}
+
+/* dark mode */
+
+.dark .navbar__link:hover {
+  border-color: rgb(var(--color-dark-primary-700));
 }
