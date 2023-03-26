@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="./load-dark-mode-setting.js"></script>
+    <script src="./dark-mode-toggle.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -57,7 +59,9 @@
         <ul>
           <li class="settings__item">
             <p class="settings__key">Dark Mode</p>
-            <p class="settings__value">&lt;toggle&gt;</p>
+            <button class="toggle" data-js="dark-mode-toggle">
+              <div class="toggle__circle"></div>
+            </button>
           </li>
         </ul>
       </section>

@@ -1,0 +1,31 @@
+.toggle {
+  width: var(--size-16);
+  height: var(--size-8);
+  box-sizing: content-box;
+  background-color: rgb(var(--color-light-primary-400));
+  border-width: 2px;
+  border-color: rgb(var(--color-light-primary-700));
+  border-radius: var(--border-radius-full);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+}
+
+.toggle .toggle__circle {
+  width: var(--size-8);
+  height: var(--size-8);
+  border-radius: var(--border-radius-full);
+  background-color: rgb(var(--color-light-primary-700));
+  transition: transform 300ms;
+}
+
+/* dark mode */
+
+.dark .toggle {
+  background-color: rgb(var(--color-dark-primary-400));
+  border-color: rgb(var(--color-dark-primary-700));
+}
+
+.dark .toggle .toggle__circle {
+  background-color: rgb(var(--color-dark-primary-700));
+  transform: translateX(100%);
+}

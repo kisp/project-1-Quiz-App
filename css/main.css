@@ -5,6 +5,7 @@
 @import "./components/profile/avatar.css";
 @import "./components/profile/counters.css";
 @import "./components/profile/settings.css";
+@import "./components/profile/toggle.css";
 @import "./components/question-cards/card.css";
 @import "./components/question-cards/tag-list.css";
 @import "./components/site/footer.css";
