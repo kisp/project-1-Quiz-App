@@ -96,8 +96,16 @@ code,
 kbd,
 samp,
 pre {
-  font-family: var(ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace); /* 1 */
+  font-family: var(
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace
+  ); /* 1 */
   font-size: 1em; /* 2 */
 }
 

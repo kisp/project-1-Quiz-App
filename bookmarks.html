@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <script src="./load-dark-mode-setting.js"></script>
+    <script src="./dark-mode-toggle.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -37,11 +39,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -65,11 +63,7 @@
               <a href="#">#flexbox</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -91,11 +85,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -117,11 +107,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -141,11 +127,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -165,11 +147,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -189,11 +167,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -213,11 +187,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -237,11 +207,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -261,11 +227,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
         <article class="card">
           <h2 class="card__question">
@@ -285,11 +247,7 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <img
-            class="card__bookmark-icon"
-            src="./assets/bookmark_filled.png"
-            alt="bookmark icon"
-          />
+          <div class="card__bookmark-icon card__bookmark-icon--selected" />
         </article>
       </section>
     </main>
@@ -299,23 +257,17 @@
         <ul class="space-around-horizontally">
           <li>
             <a href="/" class="navbar__link"
-              ><img class="navbar__img" src="./assets/home.png" alt="home page"
+              ><span class="navbar__img navbar__img--home"
             /></a>
           </li>
           <li>
             <a href="/bookmarks.html" class="navbar__link"
-              ><img
-                class="navbar__img"
-                src="./assets/bookmark_filled.png"
-                alt="bookmarks page"
+              ><span class="navbar__img navbar__img--bookmarks-selected"
             /></a>
           </li>
           <li>
             <a href="/profile.html" class="navbar__link"
-              ><img
-                class="navbar__img"
-                src="./assets/profile.png"
-                alt="profile page"
+              ><span class="navbar__img navbar__img--profile"
             /></a>
           </li>
         </ul>
