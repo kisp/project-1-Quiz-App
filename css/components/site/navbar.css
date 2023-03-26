@@ -1,23 +1,68 @@
 .navbar {
 }
 
-.navbar__link {
+.navbar .navbar__link {
   display: inline-block;
   border-bottom-width: 4px;
-  padding: var(--size-2) 0;
+  margin: var(--size-1) 0 var(--size-1) 0;
   border-color: transparent;
 }
 
-.navbar__link:hover {
+.navbar .navbar__link:hover {
   border-color: rgb(var(--color-black));
 }
 
-.navbar__img {
+.navbar .navbar__img {
   height: var(--size-7);
+  width: var(--size-7);
+  display: inline-block;
+  background-size: cover;
+}
+
+.navbar .navbar__img--home {
+  background-image: url("/assets/home.png");
+}
+.navbar .navbar__img--home-selected {
+  background-image: url("/assets/home_filled.png");
+}
+
+.navbar .navbar__img--bookmarks {
+  background-image: url("/assets/bookmark.png");
+}
+.navbar .navbar__img--bookmarks-selected {
+  background-image: url("/assets/bookmark_filled.png");
+}
+
+.navbar .navbar__img--profile {
+  background-image: url("/assets/profile.png");
+}
+.navbar .navbar__img--profile-selected {
+  background-image: url("/assets/profile_filled.png");
 }
 
 /* dark mode */
 
-.dark .navbar__link:hover {
+.dark .navbar .navbar__link:hover {
   border-color: rgb(var(--color-dark-primary-700));
+}
+
+.dark .navbar .navbar__img--home {
+  background-image: url("/assets/dark-mode/home.png");
+}
+.dark .navbar .navbar__img--home-selected {
+  background-image: url("/assets/dark-mode/home_filled.png");
+}
+
+.dark .navbar .navbar__img--bookmarks {
+  background-image: url("/assets/bookmark.png");
+}
+.dark .navbar .navbar__img--bookmarks-selected {
+  background-image: url("/assets/dark-mode/bookmark_filled.png");
+}
+
+.dark .navbar .navbar__img--profile {
+  background-image: url("/assets/dark-mode/profile.png");
+}
+.dark .navbar .navbar__img--profile-selected {
+  background-image: url("/assets/dark-mode/profile_filled.png");
 }
