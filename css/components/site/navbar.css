@@ -33,6 +33,13 @@
   background-image: url("/assets/bookmark_filled.png");
 }
 
+.navbar .navbar__img--add-cards {
+  background-image: url("/assets/plus-button_transparent.png");
+}
+.navbar .navbar__img--add-cards-selected {
+  background-image: url("/assets/plus-button_transparent.png");
+}
+
 .navbar .navbar__img--profile {
   background-image: url("/assets/profile.png");
 }
