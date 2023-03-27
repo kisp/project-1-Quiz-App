@@ -27,6 +27,27 @@
     rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
 }
 
+.card .card__answer {
+  margin-left: var(--size-8);
+  margin-right: var(--size-8);
+  margin-top: var(--size-4);
+  margin-bottom: var(--size-4);
+  font-size: var(--font-size-xl);
+  line-height: var(--font-size-xl-line-height);
+  font-style: italic;
+  font-weight: var(--font-weight-semibold);
+  color: rgb(var(--color-gray-700));
+}
+
+.card .card__answer > svg {
+  width: var(--size-10);
+  height: var(--size-10);
+}
+
+.card .card__answer--hidden {
+  display: none;
+}
+
 .card .card__bookmark-icon {
   position: absolute;
   top: -10px;
@@ -49,12 +70,15 @@
 
 .dark .card .card__question {
   border-color: rgb(var(--color-dark-slate-700));
-  color: white;
 }
 
 .dark .card:hover .card__question {
   border-color: rgb(var(--color-dark-primary-700));
   background-color: rgb(var(--color-dark-slate-700));
+}
+
+.dark .card .card__answer {
+  color: rgb(var(--color-gray-300));
 }
 
 .dark .card .card__bookmark-icon--selected {
