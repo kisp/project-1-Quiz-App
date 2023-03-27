@@ -33,6 +33,13 @@
   background-image: url("/assets/bookmark_filled.png");
 }
 
+.navbar .navbar__img--add-cards {
+  background-image: url("/assets/plus-button.png");
+}
+.navbar .navbar__img--add-cards-selected {
+  background-image: url("/assets/plus-button_filled.png");
+}
+
 .navbar .navbar__img--profile {
   background-image: url("/assets/profile.png");
 }
@@ -58,6 +65,13 @@
 }
 .dark .navbar .navbar__img--bookmarks-selected {
   background-image: url("/assets/dark-mode/bookmark_filled.png");
+}
+
+.dark .navbar .navbar__img--add-cards {
+  background-image: url("/assets/plus-button.png");
+}
+.dark .navbar .navbar__img--add-cards-selected {
+  background-image: url("/assets/dark-mode/plus-button_filled.png");
 }
 
 .dark .navbar .navbar__img--profile {

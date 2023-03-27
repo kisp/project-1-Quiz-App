@@ -9,6 +9,9 @@
 @import "./components/question-cards/card.css";
 @import "./components/question-cards/tag-list.css";
 @import "./components/site/footer.css";
+@import "./components/site/form-controls.css";
+@import "./components/site/form-input.css";
+@import "./components/site/form.css";
 @import "./components/site/header.css";
 @import "./components/site/navbar.css";
 @import "./components/site/primary-button.css";
