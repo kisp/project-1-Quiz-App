@@ -25,3 +25,14 @@
 .form-input .form-input__annotation {
   text-align: right;
 }
+
+/* dark mode */
+
+.dark .form-input .form-input__input-field {
+  border-color: rgb(var(--color-dark-slate-600));
+  background-color: rgb(var(--color-dark-slate-800));
+}
+
+.dark .form-input .form-input__input-field:focus {
+  border-color: rgb(var(--color-cyan-900));
+}
