@@ -34,10 +34,10 @@
 }
 
 .navbar .navbar__img--add-cards {
-  background-image: url("/assets/plus-button_transparent.png");
+  background-image: url("/assets/plus-button.png");
 }
 .navbar .navbar__img--add-cards-selected {
-  background-image: url("/assets/plus-button_transparent.png");
+  background-image: url("/assets/plus-button_filled.png");
 }
 
 .navbar .navbar__img--profile {
@@ -65,6 +65,13 @@
 }
 .dark .navbar .navbar__img--bookmarks-selected {
   background-image: url("/assets/dark-mode/bookmark_filled.png");
+}
+
+.dark .navbar .navbar__img--add-cards {
+  background-image: url("/assets/plus-button.png");
+}
+.dark .navbar .navbar__img--add-cards-selected {
+  background-image: url("/assets/dark-mode/plus-button_filled.png");
 }
 
 .dark .navbar .navbar__img--profile {
