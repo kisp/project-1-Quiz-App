@@ -12,8 +12,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <script src="./load-dark-mode-setting.js"></script>
-    <script src="./dark-mode-toggle.js" defer></script>
+    <script src="./js/load-dark-mode-setting.js"></script>
+    <script src="./js/dark-mode-toggle.js" defer></script>
+    <script src="./js/card-related.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -21,12 +22,23 @@
     </header>
     <main class="main">
       <section>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             What property flips the axes in flexbox?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -39,15 +51,29 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Vitae congue mauris rhoncus aenean vel elit scelerisque mauris
             pellentesque?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -63,16 +89,30 @@
               <a href="#">#flexbox</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida. Ut pharetra
             sit amet, aliquam id diam maecenas ultricies mi eget mauris pharetra
             et ultrices neque ornare aenean euismod elementum nisi, quis?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -85,16 +125,30 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida. Ut pharetra
             sit amet, aliquam id diam maecenas ultricies mi eget mauris pharetra
             et ultrices neque ornare aenean euismod elementum nisi, quis?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -107,14 +161,28 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -127,14 +195,28 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -147,14 +229,28 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -167,14 +263,28 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -187,14 +297,28 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -207,14 +331,28 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -227,14 +365,28 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
-        <article class="card">
+        <article class="card" data-js="card">
           <h2 class="card__question">
             Praesent semper feugiat nibh sed pulvinar proin gravida?
           </h2>
+          <div class="card__answer card__answer--hidden" data-js="card__answer">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use href="#blockquote-icon"></use>
+            </svg>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              minus reiciendis cum nihil, nostrum sunt facilis. Cumque tenetur
+              sequi, minima eaque maxime magnam consectetur et, quam ut est
+              deleniti rerum.
+            </p>
+          </div>
           <div class="center-horizontally">
-            <button class="primary-button">Show answer</button>
+            <button class="primary-button" data-js="card__show-answer-button">Show answer</button>
           </div>
           <ul class="tag-list">
             <li class="tag-list__item">
@@ -247,7 +399,10 @@
               <a href="#">#css</a>
             </li>
           </ul>
-          <div class="card__bookmark-icon card__bookmark-icon--selected" />
+          <button
+            class="card__bookmark-icon card__bookmark-icon--selected"
+            data-js="card__bookmark-toggle-button"
+          ></button>
         </article>
       </section>
     </main>
@@ -267,11 +422,25 @@
           </li>
           <li>
             <a href="/profile.html" class="navbar__link"
-              ><span class="navbar__img navbar__img--profile"
-            /></a>
+            ><span class="navbar__img navbar__img--profile"
+             /></a>
           </li>
         </ul>
       </nav>
     </footer>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol
+        id="blockquote-icon"
+        aria-hidden="true"
+        viewBox="0 0 24 27"
+        fill="none"
+      >
+        <path
+          d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+          fill="currentColor"
+        />
+      </symbol>
+    </svg>
   </body>
 </html>

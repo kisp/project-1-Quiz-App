@@ -25,7 +25,6 @@
 .dark .tag-list .tag-list__item {
   border-color: rgb(var(--color-dark-primary-500));
   background-color: rgb(var(--color-dark-slate-700));
-  color: rgb(var(--color-white));
 }
 
 .dark .tag-list .tag-list__item:hover {
