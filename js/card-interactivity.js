@@ -1,3 +1,5 @@
+const cards = document.querySelectorAll('[data-js="card"]');
+
 function addEventListenerToBookmarkToggleButton(card) {
   const bookmarkToggleButton = card.querySelector(
     '[data-js="card__bookmark-toggle-button"]'
@@ -30,7 +32,7 @@ function addAnswerTogglerToShowAnswerButton(card) {
   });
 }
 
-document.querySelectorAll('[data-js="card"]').forEach((card) => {
+cards.forEach((card) => {
   addEventListenerToBookmarkToggleButton(card);
   addTitleTogglerToShowAnswerButton(card);
   addAnswerTogglerToShowAnswerButton(card);
