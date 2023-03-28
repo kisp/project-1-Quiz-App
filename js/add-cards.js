@@ -21,6 +21,10 @@ addCardsForm.addEventListener("submit", (e) => {
   const cardMTree = renderCard({ question, answer, tag });
   const cardElement = createDOMElementsFromMTree(cardMTree);
 
+  addEventListenerToBookmarkToggleButton(cardElement);
+  addTitleTogglerToShowAnswerButton(cardElement);
+  addAnswerTogglerToShowAnswerButton(cardElement);
+
   if (addCardsContainer.children[0]) {
     addCardsContainer.children[0].remove();
   }
