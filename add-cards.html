@@ -16,6 +16,7 @@
     <script src="./js/dark-mode-toggle.js" defer></script>
     <script src="./js/card-related.js" defer></script>
     <script src="./js/add-cards.js" defer></script>
+    <script src="./js/characters-left.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -24,7 +25,7 @@
     <main class="main">
       <section>
         <form class="form" data-js="add-cards-form">
-          <div class="form-input">
+          <div class="form-input" data-controller="characters-left">
             <label class="form-input__label" for="questionInput"
               >Your question</label
             >
@@ -34,10 +35,18 @@
               id="questionInput"
               rows="4"
               data-js="question-input"
+              maxlength="150"
+              data-characters-left-target="input"
+              data-action="input->characters-left#addOne"
             ></textarea>
-            <p class="form-input__annotation">75 characters left</p>
+            <p
+              class="form-input__annotation"
+              data-characters-left-target="output"
+            >
+              150 characters left
+            </p>
           </div>
-          <div class="form-input">
+          <div class="form-input" data-controller="characters-left">
             <label class="form-input__label" for="answerInput"
               >Your answer</label
             >
@@ -47,8 +56,16 @@
               id="answerInput"
               rows="4"
               data-js="answer-input"
+              maxlength="150"
+              data-characters-left-target="input"
+              data-action="input->characters-left#addOne"
             ></textarea>
-            <p class="form-input__annotation">150 characters left</p>
+            <p
+              class="form-input__annotation"
+              data-characters-left-target="output"
+            >
+              150 characters left
+            </p>
           </div>
           <div class="form-input">
             <label class="form-input__label" for="tagInput">Tag</label>
