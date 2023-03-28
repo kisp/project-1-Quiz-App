@@ -15,6 +15,7 @@
     <script src="./js/load-dark-mode-setting.js"></script>
     <script src="./js/dark-mode-toggle.js" defer></script>
     <script src="./js/card-related.js" defer></script>
+    <script src="./js/add-cards.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -22,29 +23,50 @@
     </header>
     <main class="main">
       <section>
-        <form class="form">
+        <form class="form" data-js="add-cards-form">
           <div class="form-input">
-            <label class="form-input__label" for="questionInput">Your question</label>
-            <textarea class="form-input__input-field" name="questionInput" id="questionInput" rows="4"></textarea>
+            <label class="form-input__label" for="questionInput"
+              >Your question</label
+            >
+            <textarea
+              class="form-input__input-field"
+              name="questionInput"
+              id="questionInput"
+              rows="4"
+              data-js="question-input"
+            ></textarea>
             <p class="form-input__annotation">75 characters left</p>
           </div>
           <div class="form-input">
-            <label class="form-input__label" for="answerInput">Your answer</label>
-            <textarea class="form-input__input-field" name="answerInput" id="answerInput" rows="4"></textarea>
+            <label class="form-input__label" for="answerInput"
+              >Your answer</label
+            >
+            <textarea
+              class="form-input__input-field"
+              name="answerInput"
+              id="answerInput"
+              rows="4"
+              data-js="answer-input"
+            ></textarea>
             <p class="form-input__annotation">150 characters left</p>
           </div>
           <div class="form-input">
             <label class="form-input__label" for="tagInput">Tag</label>
-            <input class="form-input__input-field" name="tagInput" id="tagInput" type="text" value="" />
+            <input
+              class="form-input__input-field"
+              name="tagInput"
+              id="tagInput"
+              type="text"
+              value=""
+              data-js="tag-input"
+            />
           </div>
           <div class="form-controls center-horizontally">
             <button class="primary-button">Create card</button>
           </div>
         </form>
       </section>
-      <section>
-
-      </section>
+      <section data-js="add-cards-container"></section>
     </main>
 
     <footer class="footer">
@@ -57,13 +79,13 @@
           </li>
           <li>
             <a href="/bookmarks.html" class="navbar__link"
-            ><span class="navbar__img navbar__img--bookmarks"
-             /></a>
+              ><span class="navbar__img navbar__img--bookmarks"
+            /></a>
           </li>
           <li>
             <a href="/add-cards.html" class="navbar__link"
-            ><span class="navbar__img navbar__img--add-cards-selected"
-             /></a>
+              ><span class="navbar__img navbar__img--add-cards-selected"
+            /></a>
           </li>
           <li>
             <a href="/profile.html" class="navbar__link"
